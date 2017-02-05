@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "995372153504",
+    "firebase_url": "https://whatsapp-400c8.firebaseio.com",
+    "project_id": "whatsapp-400c8",
+    "storage_bucket": "whatsapp-400c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995372153504:android:923247726ede1dab",
+        "android_client_info": {
+          "package_name": "com.raulfmiranda.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995372153504-bmpkaucoj0n55lqaol10ttcuhvgl18nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR_T3qIwMkLRix8N1DcY-X2x3D6Yru5xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995372153504-bmpkaucoj0n55lqaol10ttcuhvgl18nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
