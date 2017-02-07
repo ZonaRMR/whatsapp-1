@@ -28,7 +28,7 @@
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/editText2"
+        android:id="@+id/edit_cod_pais"
         android:hint="+55"
         android:textColor="@color/textColorPrimary" />
 
@@ -37,12 +37,12 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText3"
+        android:id="@+id/edit_cod_area"
         android:hint="11"
-        android:layout_alignBaseline="@+id/editText2"
-        android:layout_alignBottom="@+id/editText2"
-        android:layout_toRightOf="@+id/editText2"
-        android:layout_toEndOf="@+id/editText2"
+        android:layout_alignBaseline="@+id/edit_cod_pais"
+        android:layout_alignBottom="@+id/edit_cod_pais"
+        android:layout_toRightOf="@+id/edit_cod_pais"
+        android:layout_toEndOf="@+id/edit_cod_pais"
         android:textColor="@color/textColorPrimary" />
 
     <EditText
@@ -50,10 +50,10 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:layout_alignBottom="@+id/editText3"
-        android:layout_toRightOf="@+id/editText3"
-        android:layout_toEndOf="@+id/editText3"
-        android:id="@+id/editText4"
+        android:layout_alignBottom="@+id/edit_cod_area"
+        android:layout_toRightOf="@+id/edit_cod_area"
+        android:layout_toEndOf="@+id/edit_cod_area"
+        android:id="@+id/edit_telefone"
         android:hint="995855253"
         android:textColor="@color/textColorPrimary" />
 
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/edit_nome"
         android:hint="Digite seu nome."
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
@@ -74,8 +74,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:id="@+id/button2"
-        android:layout_below="@+id/editText2"
+        android:id="@+id/bt_cadastrar"
+        android:layout_below="@+id/edit_cod_pais"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@color/colorPrimaryDark" />
