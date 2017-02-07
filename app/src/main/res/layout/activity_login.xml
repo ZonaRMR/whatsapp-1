@@ -54,7 +54,7 @@
         android:layout_toRightOf="@+id/edit_cod_area"
         android:layout_toEndOf="@+id/edit_cod_area"
         android:id="@+id/edit_telefone"
-        android:hint="995855253"
+        android:hint="99585-5253"
         android:textColor="@color/textColorPrimary" />
 
     <EditText
