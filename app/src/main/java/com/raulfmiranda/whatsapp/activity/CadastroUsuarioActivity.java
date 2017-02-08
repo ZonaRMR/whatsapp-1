@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.raulfmiranda.whatsapp.R;
 
-public class ValidadorActivity extends AppCompatActivity {
+public class CadastroUsuarioActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_validador);
+        setContentView(R.layout.activity_cadastro_usuario);
     }
 }
